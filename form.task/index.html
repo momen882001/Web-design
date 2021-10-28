@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+
+<body>
+    <form>
+        <div class="main">
+
+            <div class="name">
+                <label for="na">Name</label>
+                <input id="na" type="text" required placeholder="write your name" minlength="5" maxlength="25">
+            </div>
+
+            <br>
+            <div class="email">
+                <label for="em">Email</label>
+                <input id="em" type="email" required placeholder="write your email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            </div>
+
+            <br>
+            <div class="message">
+                <label for="me">Message</label>
+                <input id="me" type="text" placeholder="write your message" maxlength="100">
+            </div>
+
+            <br>
+            <div class="rs">
+                <input class="re" type="reset" value="Reset">
+                <input class="su" type="submit" value="Submit">
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>
